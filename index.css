@@ -42,13 +42,13 @@ body{
     outline: 0;
     background:#ebfffc ;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 50px;
     cursor: pointer;
 }
 
 .search button img{
-    width: 16px;
+    width: 18px;
 }
 
 .weather-icon{
@@ -56,7 +56,7 @@ body{
     margin-top: 30px;
 }
 .weather h1{
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 500;
 }
 .weather h2{
@@ -68,7 +68,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding:  20px;
     margin-top: 50px;
 }
 .col{
@@ -79,10 +79,10 @@ body{
 
 .col img{
     width: 40px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.humidity, .wind{
+.humidity, .wind,.rain{
     font-size: 28px;
     margin-top: -6px;
 }
@@ -94,7 +94,7 @@ body{
 .error{
     text-align: left;
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 10px;
     margin-top: 10px;
     display: none;
 }
